@@ -1,0 +1,104 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: radial-gradient(circle at center center, transparent,rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 2px,transparent 2px, transparent 10px,rgb(33,33,33) 10px, rgb(33,33,33) 11px,transparent 11px, transparent 21px),repeating-linear-gradient(45deg, rgb(47,47,47) 0px, rgb(47,47,47) 4px,transparent 4px, transparent 8px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+    overflow: hidden;
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-links{
+    text-align: center;
+
+    width: 50%;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.anim::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.start_btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: #1e56d5;
+    padding: 15px 30px;
+     background: #1e56d5;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.show{
+margin-top: 5%;
+line-height: 5em;
+}
+
+.logout{
+    font-size: 25px;
+    font-weight: 500;
+    color: #1e56d5;
+    width: 120px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(40%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.logout:hover{
+    background: #f44336;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #fff;
+}
+.start_btn button:hover{
+    color: #fff;
+    background-color: #1e56d5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
